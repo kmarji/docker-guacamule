@@ -85,4 +85,6 @@ COPY root /
 
 EXPOSE 8080
 
+COPY init /init
+
 ENTRYPOINT [ "/init" ]
